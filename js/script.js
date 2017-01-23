@@ -6,10 +6,10 @@ var b = 5;
 var c;
 
 alert("var a = 3;\nvar b = 5;\nvar c;\n------------\n\n" +
-     "a + b = " + (a + b) + "\n" + 
-     "a - b = " + (a - b) + "\n" + 
-     " a * b = " + (a*b) + "\n" +
-     " a / b = " + (a/b) + "\n" +
+     "a + b = " + (a+b) + "\n" + 
+     "a - b = " + (a-b) + "\n" + 
+     "a * b = " + (a*b) + "\n" +
+     "a / b = " + (a/b) + "\n" +
      "a % b = " + (a%b) + "\n" +
      "(a += b): " + (a+=b) + "\n" +
      "(a -= b): " + (a-=b) + "\n" +
@@ -46,7 +46,7 @@ var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100)
 ];
 
-console.log(numbers [0]);//first array element
+console.log(numbers [0]);
 console.log(numbers [4]);
 
 var sum = numbers[0] + numbers[4];
